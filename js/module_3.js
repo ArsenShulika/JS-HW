@@ -1,6 +1,6 @@
 'use strict';
 
-// TASKO - 1;
+// TASK - 1;
 
 // function slugify(title) {
 //   const slugtitleSplit = title.toLowerCase().split(' ');
