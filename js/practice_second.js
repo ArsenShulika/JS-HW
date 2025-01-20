@@ -182,13 +182,13 @@ const tweets = [
 // }
 // console.log(digitize(0));
 
-function betterThanAverage(classPoints, yourPoints) {
-  const total = classPoints.reduce((acc, point) => acc + point, 0);
-  const average = total / classPoints.length;
-  console.log(average);
-  return average > yourPoints;
-}
+// function betterThanAverage(classPoints, yourPoints) {
+//   const total = classPoints.reduce((acc, point) => acc + point, 0);
+//   const average = total / classPoints.length;
+//   console.log(average);
+//   return average > yourPoints;
+// }
 
-const note = [5, 5, 3, 6, 8, 9, 10, 17];
+// const note = [5, 5, 3, 6, 8, 9, 10, 17];
 
-betterThanAverage(note, 7);
+// betterThanAverage(note, 7);
