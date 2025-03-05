@@ -1,0 +1,38 @@
+.gallery {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    max-width: 1440px;
+    /* Замість width, щоб не виходило за екран */
+    margin: 0 auto;
+    padding: 0;
+}
+
+.gallery-item {
+    width: 360px;
+    overflow: hidden;
+    /* Запобігає виходу зображення за межі */
+    border-radius: 8px;
+    /* Округлення для красивого вигляду */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    /* Легка тінь */
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+    /* Збільшення при наведенні */
+}
+
+.gallery-image {
+    display: block;
+    width: 100%;
+    /* Автоматично підлаштовується під батьківський контейнер */
+    height: 200px;
+    object-fit: cover;
+    /* Обрізає зображення, зберігаючи пропорції */
+    border-radius: 8px;
+    /* Округлення, щоб співпадало з контейнером */
+}
